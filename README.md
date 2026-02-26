@@ -40,3 +40,56 @@ Install requirements with:
 ```bash
 pip install -r requirements.txt
 ```
+---
+## How to Run
+
+**Download and preprocess dataset**  
+```bash
+python code/preprocess.py
+```
+**Train the LSTM model**
+
+```
+python code/train_model.py
+```
+**Evaluate the model and generate plots**
+```
+python code/evaluate_model.py
+```
+
+
+
+
+
+
+---
+
+## How It Works
+
+**Data Processing:**  
+The IMDB dataset is cleaned and preprocessed to remove noise, tokenize text, and pad sequences to a uniform length.
+
+**Model Training:**  
+An LSTM (Long Short-Term Memory) neural network is trained on the processed data to learn patterns associated with positive and negative sentiments.
+
+**Prediction:**  
+The trained model predicts the sentiment of new, unseen movie reviews.
+
+**Results Visualization:**  
+Training and validation accuracy/loss plots, as well as a confusion matrix, are generated to evaluate model performance.
+
+---
+## Technologies Used
+
+**Python:** Core programming language for data processing and model implementation.  
+
+**TensorFlow / Keras:** Framework for building and training the LSTM deep learning model.  
+
+**Matplotlib:** Library for plotting accuracy/loss curves and confusion matrices.  
+
+**Jupyter Notebook (Optional):** Environment for exploratory analysis and testing model ideas.  
+
+---
+
+
+

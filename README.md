@@ -57,11 +57,6 @@ python code/train_model.py
 python code/evaluate_model.py
 ```
 
-
-
-
-
-
 ---
 
 ## How It Works

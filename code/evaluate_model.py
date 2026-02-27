@@ -47,3 +47,23 @@ plt.title('Confusion Matrix')
 plt.savefig('../results/confusion_matrix.png')
 
 print("Evaluation complete. Plots saved in '../results/' folder.")
+
+import matplotlib.pyplot as plt
+
+# accuracy plot
+plt.figure()
+plt.plot(history.history['accuracy'])
+plt.title('Model Accuracy')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
+plt.savefig('../results/accuracy_plot.png')  # saves plot in results
+plt.close()
+
+# loss plot
+plt.figure()
+plt.plot(history.history['loss'])
+plt.title('Model Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.savefig('../results/loss_plot.png')
+plt.close()

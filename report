@@ -5,7 +5,7 @@ Define the problem :
 → The task is binary sentiment analysis on movie reviews
 → Predict whether a review is positive or negative
 
-Explain why this problem matters (1–2 sentences):
+Explain why this problem matters :
 → Understanding sentiment helps analyze opinions at scale
 
 Describe the dataset:
@@ -26,7 +26,7 @@ Text is padded to the same length so it can be used by a neural network
 
 2. Deep Learning Model (what model you used and why it fits text data)
 
-State the model type clearly:
+State the model type :
 → Used an LSTM-based neural network for text classification
 
 List the main components:
@@ -45,7 +45,7 @@ Used training data with validation split
 
 Optimized using accuracy and loss
 
-Explain why LSTM briefly:
+Explain why LSTM :
 
 LSTM works well for text because it captures sequence information
 

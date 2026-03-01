@@ -1,9 +1,108 @@
-Problem definition & dataset
 
-Model architecture
+1.Problem Definition & Dataset Curation:(what the task is and what data you used)
 
-Results (plots, example predictions)
+Define the problem :
+→ The task is binary sentiment analysis on movie reviews
+→ Predict whether a review is positive or negative
 
-Lessons learned / reflections
+Explain why this problem matters (1–2 sentences):
+→ Understanding sentiment helps analyze opinions at scale
 
-Use the plots from results/
+Describe the dataset:
+
+IMDB movie review dataset
+
+Each review is labeled positive or negative
+
+Dataset is already split into training and test sets
+
+Explain preprocessing (simple):
+
+Reviews are cleaned and converted into numerical sequences
+
+Text is padded to the same length so it can be used by a neural network
+
+
+
+2. Deep Learning Model (what model you used and why it fits text data)
+
+State the model type clearly:
+→ Used an LSTM-based neural network for text classification
+
+List the main components:
+
+Embedding layer (turns words into vectors)
+
+LSTM layer (learns patterns in word order)
+
+Dense output layer with sigmoid activation
+
+Training setup:
+
+Trained for 5 epochs
+
+Used training data with validation split
+
+Optimized using accuracy and loss
+
+Explain why LSTM briefly:
+
+LSTM works well for text because it captures sequence information
+
+
+3. Results (what the numbers and graphs mean)
+Report final performance:
+
+Training accuracy ≈ 96%
+
+Test accuracy ≈ 85–86%
+
+Explain the graphs:
+
+Accuracy increases over epochs → model is learning
+
+Loss decreases → prediction errors are reducing
+
+Compare training vs test:
+
+Training accuracy is higher than test accuracy
+
+This indicates some overfitting, but generalization is still reasonable
+
+State what the results mean:
+
+The model successfully classifies sentiment
+
+Performance is strong for a basic deep learning model 
+
+
+
+
+4. Lessons & Experience Learned(reflection) 
+Learned how to:
+
+Preprocess text data for deep learning
+
+Train and evaluate an LSTM model
+
+Challenges faced:
+
+Handling large datasets
+
+Managing training time and overfitting
+
+Debugging file paths and environment issues
+
+What could be improved:
+
+Hyperparameter tuning
+
+More epochs or regularization
+
+Trying other models (CNN, Transformer)
+
+Personal takeaway:
+
+Gained hands-on experience with deep learning for NLP
+
+Better understanding of real ML workflows

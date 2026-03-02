@@ -23,7 +23,7 @@ IMDB_Sentiment_Analysis/
 │ ├── X_test.npy
 │ ├── X_train.npy
 │ ├── y_test.npy
-│ ├── y_train.npy
+│ └── y_train.npy
 ├── results/
 │ ├── accuracy_plot.png
 │ ├── confusion_matrix.png
@@ -33,9 +33,7 @@ IMDB_Sentiment_Analysis/
 │
 ├── README.md
 │
-├── report.md
-│
-└── report.pdf
+└── report.md
 
 
 ```

@@ -14,17 +14,30 @@ The goal is to demonstrate a binary text classification task using the IMDB Movi
 ```
 IMDB_Sentiment_Analysis/
 │
-├── README.md
-├── requirements.txt
 ├── code/
-│ ├── preprocess.py # Prepare dataset: cleaning, tokenization, padding
-│ ├── train_model.py # Build and train the LSTM model
-│ └── evaluate_model.py # Evaluate model, generate accuracy/loss plots and confusion matrix
+│ ├── evaluate_model.py  
+│ ├── preprocess.py  
+│ ├── requirements.txt 
+│ └── train_model.py  
+├── data/
+│ ├── X_test.npy
+│ ├── X_train.npy
+│ ├── y_test.npy
+│ ├── y_train.npy
 ├── results/
 │ ├── accuracy_plot.png
+│ ├── confusion_matrix.png
+│ ├── history.npy
 │ ├── loss_plot.png
-│ └── confusion_matrix.png
-└── report.pdf # PDF report with problem, model, results, lessons
+│ └── lstm_model.h5
+│
+├── README.md
+│
+├── report.md
+│
+└── report.pdf
+
+
 ```
 ---
 ```

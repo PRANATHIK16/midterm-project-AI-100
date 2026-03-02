@@ -35,10 +35,6 @@ IMDB_Sentiment_Analysis/
 │ └── lstm_model.h5
 │
 └── README.md
-│
-├── report.md
-│
-└── report.pdf
 
 
 ```

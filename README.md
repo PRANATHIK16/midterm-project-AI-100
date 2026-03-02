@@ -24,6 +24,9 @@ IMDB_Sentiment_Analysis/
 │ ├── X_train.npy
 │ ├── y_test.npy
 │ └── y_train.npy
+├── final report/
+│ ├── IMDB Sentiment Analysis Final Report
+│ └── report.md
 ├── results/
 │ ├── accuracy_plot.png
 │ ├── confusion_matrix.png
@@ -31,7 +34,7 @@ IMDB_Sentiment_Analysis/
 │ ├── loss_plot.png
 │ └── lstm_model.h5
 │
-├── README.md
+└── README.md
 │
 ├── report.md
 │

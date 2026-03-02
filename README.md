@@ -86,7 +86,7 @@ Training and validation accuracy/loss plots, as well as a confusion matrix, are 
 
 ---
 ## Authors 
-Pranathi Kovvuru 
+Pranathi Kovvuru and 
 Amal Parekh 
 
 

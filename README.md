@@ -33,7 +33,9 @@ IMDB_Sentiment_Analysis/
 │
 ├── README.md
 │
-└── report.md
+├── report.md
+│
+└── report.pdf
 
 
 ```

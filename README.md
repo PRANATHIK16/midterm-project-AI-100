@@ -85,6 +85,8 @@ Training and validation accuracy/loss plots, as well as a confusion matrix, are 
 **Jupyter Notebook (Optional):** Environment for exploratory analysis and testing model ideas.  
 
 ---
-
+## Authors 
+Pranathi Kovvuru 
+Amal Parekh 
 
 

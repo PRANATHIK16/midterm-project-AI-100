@@ -1,5 +1,6 @@
 # IMDB Sentiment Analysis Final Report
 
+## Authors: Pranathi Kovvuru and Amal Parekh 
 
 ## 1.Problem Definition & Dataset Curation
 
